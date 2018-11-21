@@ -1,4 +1,7 @@
 [
+  { 
+     "_version" : "1.1" 
+  },
   {
     "query" : "hello*",
     "response" : "hello"
@@ -51,8 +54,84 @@
     "query" : "*help*",
     "response" : "help"
   },
-   {
+  {
     "query" : "*rap*",
     "response" : "rap"
-  }  
+  },
+  {
+    "query" : "*what*up to*",
+    "response" : "dave is doing"
+  },
+  {
+    "query" : "*the*sky*is*up*",
+    "response" : "sky up"
+  },
+  {
+    "query" : "*song*",
+    "response" : "song"
+  },
+  {
+    "query" : "*sing*",
+    "response" : "sing"
+  },
+  {
+    "query" : "*what*you*do*",
+    "response" : "what can dave do"
+  },
+  {
+    "query" : "*what*up*",
+    "response" : "what is up"
+  },
+  {
+    "query" : "*dc*or*marvel*",
+    "response" : "dc or marvel"
+  },
+  {
+    "query" : "*marvel*or*dc*",
+    "response" : "dc or marvel"
+  },
+  {
+    "query" : "*ios*or*android*",
+    "response" : "ios or android"
+  },
+  {
+    "query" : "*android*or*ios*",
+    "response" : "ios or android"
+  },
+  {
+    "query" : "*iphone*or*samsung*",
+    "response" : "ios or android"
+  },
+  {
+    "query" : "*apple*or*samsung*",
+    "response" : "ios or android"
+  },
+  {
+    "query" : "*samsung*or*iphone*",
+    "response" : "ios or android"
+  },
+  {
+    "query" : "*samsung*or*apple*",
+    "response" : "ios or android"
+  },
+  {
+    "query" : "*how*login*",
+    "response" : "login"
+  },
+  {
+    "query" : "*how*register*",
+    "response" : "login"
+  },
+  {
+    "query" : "*sorry*unsure*",
+    "response" : "unsure"
+  },
+  {
+    "query" : "*proof*",
+    "response" : "proof"
+  },
+  {
+    "query" : "*marry*",
+    "response" : "marry"
+  }
 ]
