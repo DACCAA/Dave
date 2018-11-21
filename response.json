@@ -1,38 +1,119 @@
 [
+  { 
+    "_version" : "1.1" 
+  },
   {
     "query" : "hello",
-    "response" :  ["Hello!", "Hey!"],
-    "authResponse" : ["Hello {name}!", "Hey {name}!"],
-    "image" : null
+    "response" :  ["Hello!", "Hey!", "Yo", "What's up!"],
+    "authResponse" : ["Hello {name}!", "Hey {name}!", "Yo {name}!", "What's up {name}!"],
+    "media" : null
   },
   {
     "query" : "how are you",
     "response" :  ["I am well thank you!", "I am great!"],
     "authResponse" : ["I am great! Thanks for asking {name}!", "I am feeling awesome, {name}!"],
-    "image" : null
+    "media" : null
   },
   {
     "query" : "time",
     "response" :  ["The time is now {time}", "It is now {time}"],
     "authResponse" : ["It is now {time}, {name}.", "The time is {time}, {name}."],
-    "image" : null
+    "media" : null
   },
   {
     "query" : "users name",
     "response" :  ["You are not logged in, so I am unsure.", "I am unsure, as you have not logged in."],
     "authResponse" : ["Great to see you again, {name}", "You're {name} or at least that is what you told me."],
-    "image" : null
+    "media" : null
   },
   {
     "query" : "daves name",
     "response" :  ["I am Dave, great to meet you!", "I am Dave, but you can call me Dave."],
     "authResponse" : ["My name is Dave, nice to meet you {name}.", "{name}, My name is Dave."],
-    "image" : null
+    "media" : null
   },
   {
     "query" : "help",
     "response" :  ["Please refer to my user guide for more information."],
     "authResponse" : ["{name}, please refer to my user guide for more information."],
-    "image" : null
+    "media" : null
+  },
+  {
+    "query" : "rap",
+    "response" :  ["You asked me to rap to you, when you ask me that is my cue. I can rap mean, it can get real nasty. I can even look up images of a pasty. I can also search, that can be nice. I can even search for a dice. Or roll one, that can be fun. Just hit me with a question and I'll tell you when I'm done... Dave out...", "Here's one I made earlier. So you want to see me rap to you? I can search for things like 'glue'. Or maybe many other things. Don't worry I'll handle the Strings. With my sleek fast searching, I'm your man. I can travel faster, than if you ran. I am in it just for the win. And I rhyme so fast it's a sin. All I am saying is I am really brave. Now kneel before me and call me Dave..."],
+    "authResponse" : ["{name}, here goes. {name} you asked me to rap to you, when you ask me that is my cue. I can rap mean, it can get real nasty. I can even look up images of a pasty. I can also search, that can be nice. I can even search for a dice. Or roll one, that can be fun. Just hit me with a question and I'll tell you when I'm done... Dave out...", "{name}, here's one I made earlier. So you want to see me rap {name}? I can search for things like '{ry}'. Or maybe many other things. Don't worry I'll handle the Strings. With my sleek fast searching, I'm your man. I can travel faster, than if you ran. I am in it just for the win. And I rhyme so fast it's a sin. All I am saying is I am really brave. Now kneel before me and call me Dave..."],
+    "media" : ["https://daccaa.com/drive/uploads/49/ceotpf7itzz983wd9jaq7smtq1ymwk/giphy.gif"]
+  },
+  {
+    "query" : "dave is doing",
+    "response" :  ["I am just working on DACCAA. Why not check out the change log?"],
+    "authResponse" : ["Just working on DACCAA, {name}."],
+    "media" : null
+  },
+  {
+    "query" : "sky up",
+    "response" :  ["The sky is up, wow, not heard that in a while."],
+    "authResponse" : ["The sky is up, wow, not heard that in a while {name}!"],
+    "media" : null
+  },
+  {
+    "query" : "song",
+    "response" :  ["Here you go:"],
+    "authResponse" : ["Here you go {name}!", "What about this {name}?", "How about:", "I'm thinking of this..."],
+    "media" : ["https://www.youtube.com/embed/mjLTpSLQrl0", "https://www.youtube.com/embed/OilFXaRuD_o", "https://www.youtube.com/embed/XbGs_qK2PQA", "https://www.youtube.com/embed/ZEyAEMA6ojY", "https://www.youtube.com/embed/i-9Gm39RgQk"]
+  },
+  {
+    "query" : "sing",
+    "response" :  ["Should old acquaintance be forgot, and never brought to mind? Should old acquaintance be forgot, and old lang syne? For auld lang syne, my dear, for auld lang syne, we'll take a cup of kindness yet, for auld lang syne. And surely you'll buy your pint cup! and surely I'll buy mine! And we'll take a cup o' kindness yet, for auld lang syne. For auld lang syne, my dear, for auld lang syne, we'll take a cup of kindness yet, for auld lang syne. We two have run about the slopes, and picked the daisies fine; But we've wandered many a weary foot, since auld lang syne. For auld lang syne, my dear, for auld lang syne, we'll take a cup of kindness yet, for auld lang syne..."],
+    "authResponse" : ["Should old acquaintance be forgot, and never brought to mind? Should old acquaintance be forgot, and old lang syne? For auld lang syne, my dear, for auld lang syne, we'll take a cup of kindness yet, for auld lang syne. And surely you'll buy your pint cup! and surely I'll buy mine! And we'll take a cup o' kindness yet, for auld lang syne. For auld lang syne, my dear, for auld lang syne, we'll take a cup of kindness yet, for auld lang syne. We two have run about the slopes, and picked the daisies fine; But we've wandered many a weary foot, since auld lang syne. For auld lang syne, my dear, for auld lang syne, we'll take a cup of kindness yet, for auld lang syne..."],
+    "media" : null
+  },
+  {
+    "query" : "what can dave do",
+    "response" :  ["I can do many different things. I don't know everything yet but where I fail, you can teach me!"],
+    "authResponse" : ["I can do many different things. I don't know everything yet but where I fail, you can teach me {name}!"],
+    "media" : null
+  },
+  {
+    "query" : "what is up",
+    "response" :  ["Not a lot!", "The sky, the sky is up!"],
+    "authResponse" : ["Not a lot {name}!", "The sky, the sky is up!"],
+    "media" : null
+  },
+  {
+    "query" : "dc or marvel",
+    "response" :  ["Marvel is much better... It has Spider-Man!"],
+    "authResponse" : ["Marvel is much better {name}... It has Spider-Man!"],
+    "media" : ["https://daccaa.com/drive/uploads/49/n9wp2e16slai0yus42wt67so9k6v6a/source.gif"]
+  },
+  {
+    "query" : "ios or android",
+    "response" :  ["We all know iOS is better... Just kidding, it is down to personal preference."],
+    "authResponse" : ["We all know iOS is better {name}... Just kidding, it is down to personal preference."],
+    "media" : ["https://daccaa.com/dave/images/iphone.gif"]
+  },
+  {
+    "query" : "login",
+    "response" :  ["To login/register, just head to daccaa.com/login."],
+    "authResponse" : ["I may be wrong {name}, but you appear to be already logged in. You numpty!"],
+    "media" : ["https://daccaa.com/drive/uploads/49/87v2xfejqnbosfcwuyjv2fduh9cn5r/giphy.gif"]
+  },
+  {
+    "query" : "unsure",
+    "response" :  ["That is okay, try asking me something else."],
+    "authResponse" : ["That is okay {name}, try asking me something else."],
+    "media" : null
+  },
+  {
+    "query" : "proof",
+    "response" :  ["Proof, from me?"],
+    "authResponse" : ["Proof, {name}, from me?"],
+    "media" : null
+  },
+  {
+    "query" : "marry",
+    "response" :  ["I am sorry, I am not contractually obliged to marry."],
+    "authResponse" : ["I am sorry {name}, I am not contractually obliged to marry."],
+    "media" : ["https://daccaa.com/drive/uploads/49/13fmdvhfuohyujx7r175mxfckuixyi/giphy-2.gif"]
   }
 ]
